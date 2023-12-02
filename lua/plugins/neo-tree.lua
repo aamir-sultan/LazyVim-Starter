@@ -1,5 +1,8 @@
 return {
   "nvim-neo-tree/neo-tree.nvim",
+  keys = {
+    { "<C-n>", "<cmd> NeoTreeShowToggle<CR>", desc = "Toggle the NeoTree" },
+  },
   opts = {
     window = {
       position = "right",
