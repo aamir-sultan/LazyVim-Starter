@@ -1,6 +1,10 @@
 -- Was needed to copy the whole function to make it work, as this does not 
 -- work if tried to override partially.
 return {
+
+  -- Start screen for Vim and Neovim.
+  -- { "mhinz/vim-startify", lazy = true, enabled = false },
+
   "nvimdev/dashboard-nvim",
   event = "VimEnter",
   requires = {'BlakeJC94/alpha-nvim-fortune'},
